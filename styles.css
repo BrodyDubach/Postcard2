@@ -1,0 +1,48 @@
+body {
+	font-family: "Syne Mono", cursive;
+	font-size: 15px;
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	padding-top: 10px;
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	padding-top: 10px;
+	width: 325px;
+	margin: 8px;
+}
+.postcard-body {
+	display: flex;
+	padding-left: 10px;
+}
+.body-left p:first-child {
+	margin-top: 10px;
+}
+.bodyleft,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px gray solid;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: darkgray;
+	padding: 3px;
+}
